@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Queries_CreateMagic1New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE1_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](100) NULL,
+	[Description] [char](200) NULL,
+	[Type] [tinyint] NOT NULL,
+	[HitRate] [smallint] NOT NULL,
+	[Hit] [smallint] NOT NULL,
+	[AddDamage] [smallint] NOT NULL,
+	[Delay] [tinyint] NOT NULL,
+	[ComboType] [tinyint] NOT NULL,
+	[ComboCount] [tinyint] NOT NULL,
+	[ComboDamage] [smallint] NOT NULL,
+	[Range] [smallint] NOT NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagic2New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE2_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](100) NOT NULL,
+	[Description] [char](200) NULL,
+	[HitType] [tinyint] NOT NULL,
+	[HitRate] [smallint] NOT NULL,
+	[AddDamage] [smallint] NOT NULL,
+	[AddRange] [smallint] NOT NULL,
+	[NeedArrow] [tinyint] NOT NULL,
+	[AddDamagePlus] [smallint] NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagic3New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE3_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](100) NULL,
+	[Description] [char](200) NULL,
+	[Radius] [tinyint] NOT NULL,
+	[Angle] [smallint] NOT NULL,
+	[DirectType] [tinyint] NOT NULL,
+	[FirstDamage] [smallint] NOT NULL,
+	[EndDamage] [smallint] NOT NULL,
+	[TimeDamage] [smallint] NOT NULL,
+	[Duration] [tinyint] NOT NULL,
+	[Attribute] [tinyint] NOT NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagic4New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE4_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](100) NOT NULL,
+	[Description] [char](200) NULL,
+	[BuffType] [tinyint] NOT NULL,
+	[Radius] [tinyint] NOT NULL,
+	[Duration] [smallint] NOT NULL,
+	[AttackSpeed] [tinyint] NOT NULL,
+	[Speed] [tinyint] NOT NULL,
+	[AC] [smallint] NOT NULL,
+	[ACPct] [smallint] NOT NULL,
+	[Attack] [tinyint] NOT NULL,
+	[MagicAttack] [tinyint] NOT NULL,
+	[MaxHP] [smallint] NOT NULL,
+	[MaxHpPct] [smallint] NOT NULL,
+	[MaxMP] [smallint] NOT NULL,
+	[MaxMpPct] [smallint] NOT NULL,
+	[HitRate] [tinyint] NOT NULL,
+	[AvoidRate] [smallint] NOT NULL,
+	[Str] [smallint] NOT NULL,
+	[Sta] [smallint] NOT NULL,
+	[Dex] [smallint] NOT NULL,
+	[Intel] [smallint] NOT NULL,
+	[Cha] [smallint] NOT NULL,
+	[FireR] [tinyint] NOT NULL,
+	[ColdR] [tinyint] NOT NULL,
+	[LightningR] [tinyint] NOT NULL,
+	[MagicR] [tinyint] NOT NULL,
+	[DiseaseR] [tinyint] NOT NULL,
+	[PoisonR] [tinyint] NOT NULL,
+	[ExpPct] [tinyint] NOT NULL,
+	[LoyaltyPct] [tinyint] NOT NULL,
+	[SpecialAmount] [tinyint] NOT NULL	
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagic5New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE5_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](100) NULL,
+	[Description] [char](200) NULL,
+	[Type] [tinyint] NOT NULL,
+	[ExpRecover] [tinyint] NOT NULL,
+	[NeedStone] [smallint] NOT NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagic6New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE6_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](100) NOT NULL,
+	[Description] [char](200) NULL,
+	[Size] [smallint] NOT NULL,
+	[TransformID] [smallint] NOT NULL,
+	[Duration] [smallint] NOT NULL,
+	[MaxHp] [smallint] NOT NULL,
+	[MaxMp] [smallint] NOT NULL,
+	[Speed] [tinyint] NOT NULL,
+	[AttackSpeed] [smallint] NOT NULL,
+	[TotalHit] [smallint] NOT NULL,
+	[TotalAc] [smallint] NOT NULL,
+	[TotalHitRate] [smallint] NOT NULL,
+	[TotalEvasionRate] [smallint] NOT NULL,
+	[TotalFireR] [smallint] NOT NULL,
+	[TotalColdR] [smallint] NOT NULL,
+	[TotalLightningR] [smallint] NOT NULL,
+	[TotalMagicR] [smallint] NOT NULL,
+	[TotalDiseaseR] [smallint] NOT NULL,
+	[TotalPoisonR] [smallint] NOT NULL,
+	[Class] [smallint] NOT NULL,
+	[UserSkillUse] [tinyint] NOT NULL,
+	[NeedItem] [tinyint] NOT NULL,
+	[SkillSuccessRate] [tinyint] NOT NULL,
+	[MonsterFriendly] [tinyint] NOT NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagic9New" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_TYPE9_NEW](
+	[iNum] [int] NOT NULL,
+	[Name] [char](30) NULL,
+	[Description] [char](100) NULL,
+	[ValidGroup] [tinyint] NOT NULL,
+	[NationChange] [tinyint] NOT NULL,
+	[MonsterNum] [smallint] NOT NULL,
+	[TargetChange] [tinyint] NOT NULL,
+	[StateChange] [tinyint] NOT NULL,
+	[Radius] [smallint] NOT NULL,
+	[Hitrate] [smallint] NOT NULL,
+	[Duration] [smallint] NOT NULL,
+	[AddDamage] [smallint] NOT NULL,
+	[Vision] [smallint] NOT NULL,
+	[NeedItem] [int] NOT NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_CreateMagicNew" xml:space="preserve">
+    <value>CREATE TABLE [dbo].[MAGIC_NEW](
+	[MagicNum] [int] NOT NULL,
+	[EnName] [char](100) NULL,
+	[KrName] [char](100) NULL,
+	[Description] [char](200) NULL,
+	[BeforeAction] [tinyint] NOT NULL,
+	[TargetAction] [tinyint] NOT NULL,
+	[SelfEffect] [tinyint] NOT NULL,
+	[FlyingEffect] [smallint] NOT NULL,
+	[TargetEffect] [smallint] NOT NULL,
+	[Moral] [tinyint] NOT NULL,
+	[SkillLevel] [smallint] NOT NULL,
+	[Skill] [smallint] NOT NULL,
+	[Msp] [smallint] NOT NULL,
+	[HP] [smallint] NOT NULL,
+	[ItemGroup] [tinyint] NOT NULL,
+	[UseItem] [int] NOT NULL,
+	[CastTime] [tinyint] NOT NULL,
+	[ReCastTime] [tinyint] NOT NULL,
+	[SuccessRate] [tinyint] NOT NULL,
+	[Type1] [tinyint] NOT NULL,
+	[Type2] [tinyint] NOT NULL,
+	[Range] [smallint] NOT NULL,
+	[Etc] [smallint] NOT NULL,
+	[Event] [smallint] NOT NULL
+) ON [PRIMARY]</value>
+  </data>
+  <data name="Queries_DropAllNew" xml:space="preserve">
+    <value>IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE1_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE1_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE2_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE2_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE3_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE3_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE4_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE4_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE5_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE5_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE6_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE6_NEW]
+IF EXISTS (SELECT * FROM sysobjects WHERE id = object_id(N'[dbo].[MAGIC_TYPE9_NEW]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+DROP TABLE [dbo].[MAGIC_TYPE9_NEW]</value>
+  </data>
+  <data name="Queries_RenameTable" xml:space="preserve">
+    <value>sp_rename @OldName,@NewName</value>
+  </data>
+</root>
